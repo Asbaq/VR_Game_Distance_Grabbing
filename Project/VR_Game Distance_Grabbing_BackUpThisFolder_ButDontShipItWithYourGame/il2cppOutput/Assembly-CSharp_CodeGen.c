@@ -1,0 +1,257 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Readme::.ctor()
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+// 0x00000002 System.Void Readme/Section::.ctor()
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+// 0x00000003 System.Void AnimateHandOnInput::Update()
+extern void AnimateHandOnInput_Update_mC03CF4BE3804324BBC246D79B71F83B1A8848CDD (void);
+// 0x00000004 System.Void AnimateHandOnInput::.ctor()
+extern void AnimateHandOnInput__ctor_mEA43A853FB1CB874A55072BFBF7A8B78BEF60F1C (void);
+// 0x00000005 System.Void HMD_Info_Manager::Start()
+extern void HMD_Info_Manager_Start_m335D7714F20AC7901DB51FBE1E60B98D76E938FB (void);
+// 0x00000006 System.Void HMD_Info_Manager::Update()
+extern void HMD_Info_Manager_Update_mD00B85C3BFA8017C650B2E5656A218359BD0FD73 (void);
+// 0x00000007 System.Void HMD_Info_Manager::.ctor()
+extern void HMD_Info_Manager__ctor_mAE6D90866F4B32299296496CF770F6BBE3851B52 (void);
+// 0x00000008 System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::get_smoothMotionEnabled()
+extern void ActionBasedControllerManager_get_smoothMotionEnabled_m4F48707751CF4D86FE53C4011C44335D96134769 (void);
+// 0x00000009 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::set_smoothMotionEnabled(System.Boolean)
+extern void ActionBasedControllerManager_set_smoothMotionEnabled_mF0858B5C67CF147BA9FC11822944D52A6D27A019 (void);
+// 0x0000000A System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::get_smoothTurnEnabled()
+extern void ActionBasedControllerManager_get_smoothTurnEnabled_mD40A5E8020F2D426AB9C2803E855D382BC29E858 (void);
+// 0x0000000B System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::set_smoothTurnEnabled(System.Boolean)
+extern void ActionBasedControllerManager_set_smoothTurnEnabled_mE344E81B06EAE1352685F5D5898393ED081341E6 (void);
+// 0x0000000C System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::SetupInteractorEvents()
+extern void ActionBasedControllerManager_SetupInteractorEvents_mCDB598C1ECC99BB76E8EA94D4AAE5C9D756362EE (void);
+// 0x0000000D System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::TeardownInteractorEvents()
+extern void ActionBasedControllerManager_TeardownInteractorEvents_mCC27F6B19CCB8CEA4CA04C011427268A8A62123B (void);
+// 0x0000000E System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::StartTeleport(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void ActionBasedControllerManager_StartTeleport_m17E537C0D798D62E6E76E6034857F8AAE5E3643A (void);
+// 0x0000000F System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::CancelTeleport(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void ActionBasedControllerManager_CancelTeleport_mBB3A2ED01D9259246285CC3B85C021FA1423F5CE (void);
+// 0x00000010 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::DirectHoverEntered(UnityEngine.XR.Interaction.Toolkit.HoverEnterEventArgs)
+extern void ActionBasedControllerManager_DirectHoverEntered_m27F60C24E2E14903965DB0E8B2F74856DAE7968C (void);
+// 0x00000011 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::DirectHoverExited(UnityEngine.XR.Interaction.Toolkit.HoverExitEventArgs)
+extern void ActionBasedControllerManager_DirectHoverExited_m6864A2AA08FB2CB1B39C514AD2686BCE1943A164 (void);
+// 0x00000012 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::DirectSelectEntered(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs)
+extern void ActionBasedControllerManager_DirectSelectEntered_m1643FF4472111DED2D68587674A1DAA3B38FBA03 (void);
+// 0x00000013 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::DirectSelectExited(UnityEngine.XR.Interaction.Toolkit.SelectExitEventArgs)
+extern void ActionBasedControllerManager_DirectSelectExited_mB81C0E69D97792A25C34CDC4482FB4A23AD6B0D1 (void);
+// 0x00000014 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::DirectInteractorUpdate()
+extern void ActionBasedControllerManager_DirectInteractorUpdate_mFB9D27A8C8C197270C4EEEE15374237D1DF021E1 (void);
+// 0x00000015 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::RayInteractorUpdate()
+extern void ActionBasedControllerManager_RayInteractorUpdate_mDD0BE07C0832ED6141302D80BE6AF0E67D0A9E66 (void);
+// 0x00000016 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::RaySelectEntered(UnityEngine.XR.Interaction.Toolkit.SelectEnterEventArgs)
+extern void ActionBasedControllerManager_RaySelectEntered_mDD4F908E5ACC4216420694347EAFD07370993304 (void);
+// 0x00000017 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::RaySelectExited(UnityEngine.XR.Interaction.Toolkit.SelectExitEventArgs)
+extern void ActionBasedControllerManager_RaySelectExited_m978A94395A068E8ED35AFE9BFC3B8C1274B0B8B7 (void);
+// 0x00000018 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::Awake()
+extern void ActionBasedControllerManager_Awake_mA170F0A72BDDA7CC8CAFD24CD70CC32A4507D14E (void);
+// 0x00000019 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::Start()
+extern void ActionBasedControllerManager_Start_m7DEA419681E12772B179C18C5EA7AEAB11B5A543 (void);
+// 0x0000001A System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::OnEnable()
+extern void ActionBasedControllerManager_OnEnable_m55FDAA4127A5F853337869FB70C791F7BFF199BD (void);
+// 0x0000001B System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::OnDisable()
+extern void ActionBasedControllerManager_OnDisable_m4D56688A046C6D944E8C14C24A427DACFCFEF15F (void);
+// 0x0000001C System.Collections.IEnumerator UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::OnAfterInteractionEvents()
+extern void ActionBasedControllerManager_OnAfterInteractionEvents_m4B447C533C4472A8AB706801013DBE03A19638EC (void);
+// 0x0000001D System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::UpdateLocomotionActions()
+extern void ActionBasedControllerManager_UpdateLocomotionActions_m2272890A04F0F17ECD938F01B70F34B6BADC55E9 (void);
+// 0x0000001E System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::UpdateTurnActions()
+extern void ActionBasedControllerManager_UpdateTurnActions_m4DE56DA353BC09AC249754F93691D0934A08D2D1 (void);
+// 0x0000001F System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::DisableLocomotionAndTurnActions()
+extern void ActionBasedControllerManager_DisableLocomotionAndTurnActions_m9C47826D21DE76B5583C1FF42FCD291C3C1CD29B (void);
+// 0x00000020 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::EnableAction(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_EnableAction_mA0DF914D374B3191AAAE2B46B6A8B70C09B9C7DA (void);
+// 0x00000021 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::DisableAction(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_DisableAction_m52E89498B02F101DD610D7AE9C9604973831FA7B (void);
+// 0x00000022 UnityEngine.InputSystem.InputAction UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::GetInputAction(UnityEngine.InputSystem.InputActionReference)
+extern void ActionBasedControllerManager_GetInputAction_mC4099BF47F2573DD0FABD46A8E7E3D508599663A (void);
+// 0x00000023 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager::.ctor()
+extern void ActionBasedControllerManager__ctor_m222B286A3F03DF879028580F61F4BF3582EF79DD (void);
+// 0x00000024 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager/<OnAfterInteractionEvents>d__39::.ctor(System.Int32)
+extern void U3COnAfterInteractionEventsU3Ed__39__ctor_m8CBF0660CF5FC03E3033909110966BD18D6FAC19 (void);
+// 0x00000025 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager/<OnAfterInteractionEvents>d__39::System.IDisposable.Dispose()
+extern void U3COnAfterInteractionEventsU3Ed__39_System_IDisposable_Dispose_m19139679C4D16B070C8AC0282FF991875D5CCF0F (void);
+// 0x00000026 System.Boolean UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager/<OnAfterInteractionEvents>d__39::MoveNext()
+extern void U3COnAfterInteractionEventsU3Ed__39_MoveNext_mD0AB00D5EB67F9E464A3588F40A179DAE52D0BD2 (void);
+// 0x00000027 System.Object UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager/<OnAfterInteractionEvents>d__39::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnAfterInteractionEventsU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4803AD07F8A7CD652E313E26C22B1B852FAB81DC (void);
+// 0x00000028 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager/<OnAfterInteractionEvents>d__39::System.Collections.IEnumerator.Reset()
+extern void U3COnAfterInteractionEventsU3Ed__39_System_Collections_IEnumerator_Reset_mFFB4B75B8A1A46FEDAB19ED4D3935286CDD80AC6 (void);
+// 0x00000029 System.Object UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager/<OnAfterInteractionEvents>d__39::System.Collections.IEnumerator.get_Current()
+extern void U3COnAfterInteractionEventsU3Ed__39_System_Collections_IEnumerator_get_Current_mFBD861F60F0B5F5912619AAA3FFCF2F0CDDF8AD1 (void);
+// 0x0000002A UnityEngine.Transform UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::get_headTransform()
+extern void DynamicMoveProvider_get_headTransform_m85A4B329CD18C5915512BC580A4A295B7BFB81F0 (void);
+// 0x0000002B System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::set_headTransform(UnityEngine.Transform)
+extern void DynamicMoveProvider_set_headTransform_mD5CA5CDF21A17F2A62750B3A2CA69EE36C2592F4 (void);
+// 0x0000002C UnityEngine.Transform UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::get_leftControllerTransform()
+extern void DynamicMoveProvider_get_leftControllerTransform_m408809CF689AC675BCD20E82F5E2A8A7AC7575F9 (void);
+// 0x0000002D System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::set_leftControllerTransform(UnityEngine.Transform)
+extern void DynamicMoveProvider_set_leftControllerTransform_m6AC58809D33E83B4954F895DFAC4BD6EA3DCDC92 (void);
+// 0x0000002E UnityEngine.Transform UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::get_rightControllerTransform()
+extern void DynamicMoveProvider_get_rightControllerTransform_m8B308F3A7C995E4668A36C315EE4878787530F0A (void);
+// 0x0000002F System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::set_rightControllerTransform(UnityEngine.Transform)
+extern void DynamicMoveProvider_set_rightControllerTransform_m45FBD6102AF72F365A8C4092316715B42C4F1019 (void);
+// 0x00000030 UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider/MovementDirection UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::get_leftHandMovementDirection()
+extern void DynamicMoveProvider_get_leftHandMovementDirection_mA9BA2AAE95933999AD9A4EA0D1040C28DCA4CA76 (void);
+// 0x00000031 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::set_leftHandMovementDirection(UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider/MovementDirection)
+extern void DynamicMoveProvider_set_leftHandMovementDirection_m164556521CE3E98A0DC525E91E26895C9D59A9C4 (void);
+// 0x00000032 UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider/MovementDirection UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::get_rightHandMovementDirection()
+extern void DynamicMoveProvider_get_rightHandMovementDirection_mDE9B7C885B93580AC465543A14618CC846E02553 (void);
+// 0x00000033 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::set_rightHandMovementDirection(UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider/MovementDirection)
+extern void DynamicMoveProvider_set_rightHandMovementDirection_mC6E20CE70015759F6EA77369E76A06BE6E1E97DF (void);
+// 0x00000034 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::Awake()
+extern void DynamicMoveProvider_Awake_mF521045FBB57DA1A0D89F979BE1389C4F23BD00E (void);
+// 0x00000035 UnityEngine.Vector3 UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::ComputeDesiredMove(UnityEngine.Vector2)
+extern void DynamicMoveProvider_ComputeDesiredMove_m9030918C5E625F3D9864EA4339CAD194016151BB (void);
+// 0x00000036 System.Void UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider::.ctor()
+extern void DynamicMoveProvider__ctor_m349CA3089219D13544AD8AD69A79EED1150DF805 (void);
+static Il2CppMethodPointer s_methodPointers[54] = 
+{
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	AnimateHandOnInput_Update_mC03CF4BE3804324BBC246D79B71F83B1A8848CDD,
+	AnimateHandOnInput__ctor_mEA43A853FB1CB874A55072BFBF7A8B78BEF60F1C,
+	HMD_Info_Manager_Start_m335D7714F20AC7901DB51FBE1E60B98D76E938FB,
+	HMD_Info_Manager_Update_mD00B85C3BFA8017C650B2E5656A218359BD0FD73,
+	HMD_Info_Manager__ctor_mAE6D90866F4B32299296496CF770F6BBE3851B52,
+	ActionBasedControllerManager_get_smoothMotionEnabled_m4F48707751CF4D86FE53C4011C44335D96134769,
+	ActionBasedControllerManager_set_smoothMotionEnabled_mF0858B5C67CF147BA9FC11822944D52A6D27A019,
+	ActionBasedControllerManager_get_smoothTurnEnabled_mD40A5E8020F2D426AB9C2803E855D382BC29E858,
+	ActionBasedControllerManager_set_smoothTurnEnabled_mE344E81B06EAE1352685F5D5898393ED081341E6,
+	ActionBasedControllerManager_SetupInteractorEvents_mCDB598C1ECC99BB76E8EA94D4AAE5C9D756362EE,
+	ActionBasedControllerManager_TeardownInteractorEvents_mCC27F6B19CCB8CEA4CA04C011427268A8A62123B,
+	ActionBasedControllerManager_StartTeleport_m17E537C0D798D62E6E76E6034857F8AAE5E3643A,
+	ActionBasedControllerManager_CancelTeleport_mBB3A2ED01D9259246285CC3B85C021FA1423F5CE,
+	ActionBasedControllerManager_DirectHoverEntered_m27F60C24E2E14903965DB0E8B2F74856DAE7968C,
+	ActionBasedControllerManager_DirectHoverExited_m6864A2AA08FB2CB1B39C514AD2686BCE1943A164,
+	ActionBasedControllerManager_DirectSelectEntered_m1643FF4472111DED2D68587674A1DAA3B38FBA03,
+	ActionBasedControllerManager_DirectSelectExited_mB81C0E69D97792A25C34CDC4482FB4A23AD6B0D1,
+	ActionBasedControllerManager_DirectInteractorUpdate_mFB9D27A8C8C197270C4EEEE15374237D1DF021E1,
+	ActionBasedControllerManager_RayInteractorUpdate_mDD0BE07C0832ED6141302D80BE6AF0E67D0A9E66,
+	ActionBasedControllerManager_RaySelectEntered_mDD4F908E5ACC4216420694347EAFD07370993304,
+	ActionBasedControllerManager_RaySelectExited_m978A94395A068E8ED35AFE9BFC3B8C1274B0B8B7,
+	ActionBasedControllerManager_Awake_mA170F0A72BDDA7CC8CAFD24CD70CC32A4507D14E,
+	ActionBasedControllerManager_Start_m7DEA419681E12772B179C18C5EA7AEAB11B5A543,
+	ActionBasedControllerManager_OnEnable_m55FDAA4127A5F853337869FB70C791F7BFF199BD,
+	ActionBasedControllerManager_OnDisable_m4D56688A046C6D944E8C14C24A427DACFCFEF15F,
+	ActionBasedControllerManager_OnAfterInteractionEvents_m4B447C533C4472A8AB706801013DBE03A19638EC,
+	ActionBasedControllerManager_UpdateLocomotionActions_m2272890A04F0F17ECD938F01B70F34B6BADC55E9,
+	ActionBasedControllerManager_UpdateTurnActions_m4DE56DA353BC09AC249754F93691D0934A08D2D1,
+	ActionBasedControllerManager_DisableLocomotionAndTurnActions_m9C47826D21DE76B5583C1FF42FCD291C3C1CD29B,
+	ActionBasedControllerManager_EnableAction_mA0DF914D374B3191AAAE2B46B6A8B70C09B9C7DA,
+	ActionBasedControllerManager_DisableAction_m52E89498B02F101DD610D7AE9C9604973831FA7B,
+	ActionBasedControllerManager_GetInputAction_mC4099BF47F2573DD0FABD46A8E7E3D508599663A,
+	ActionBasedControllerManager__ctor_m222B286A3F03DF879028580F61F4BF3582EF79DD,
+	U3COnAfterInteractionEventsU3Ed__39__ctor_m8CBF0660CF5FC03E3033909110966BD18D6FAC19,
+	U3COnAfterInteractionEventsU3Ed__39_System_IDisposable_Dispose_m19139679C4D16B070C8AC0282FF991875D5CCF0F,
+	U3COnAfterInteractionEventsU3Ed__39_MoveNext_mD0AB00D5EB67F9E464A3588F40A179DAE52D0BD2,
+	U3COnAfterInteractionEventsU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4803AD07F8A7CD652E313E26C22B1B852FAB81DC,
+	U3COnAfterInteractionEventsU3Ed__39_System_Collections_IEnumerator_Reset_mFFB4B75B8A1A46FEDAB19ED4D3935286CDD80AC6,
+	U3COnAfterInteractionEventsU3Ed__39_System_Collections_IEnumerator_get_Current_mFBD861F60F0B5F5912619AAA3FFCF2F0CDDF8AD1,
+	DynamicMoveProvider_get_headTransform_m85A4B329CD18C5915512BC580A4A295B7BFB81F0,
+	DynamicMoveProvider_set_headTransform_mD5CA5CDF21A17F2A62750B3A2CA69EE36C2592F4,
+	DynamicMoveProvider_get_leftControllerTransform_m408809CF689AC675BCD20E82F5E2A8A7AC7575F9,
+	DynamicMoveProvider_set_leftControllerTransform_m6AC58809D33E83B4954F895DFAC4BD6EA3DCDC92,
+	DynamicMoveProvider_get_rightControllerTransform_m8B308F3A7C995E4668A36C315EE4878787530F0A,
+	DynamicMoveProvider_set_rightControllerTransform_m45FBD6102AF72F365A8C4092316715B42C4F1019,
+	DynamicMoveProvider_get_leftHandMovementDirection_mA9BA2AAE95933999AD9A4EA0D1040C28DCA4CA76,
+	DynamicMoveProvider_set_leftHandMovementDirection_m164556521CE3E98A0DC525E91E26895C9D59A9C4,
+	DynamicMoveProvider_get_rightHandMovementDirection_mDE9B7C885B93580AC465543A14618CC846E02553,
+	DynamicMoveProvider_set_rightHandMovementDirection_mC6E20CE70015759F6EA77369E76A06BE6E1E97DF,
+	DynamicMoveProvider_Awake_mF521045FBB57DA1A0D89F979BE1389C4F23BD00E,
+	DynamicMoveProvider_ComputeDesiredMove_m9030918C5E625F3D9864EA4339CAD194016151BB,
+	DynamicMoveProvider__ctor_m349CA3089219D13544AD8AD69A79EED1150DF805,
+};
+static const int32_t s_InvokerIndices[54] = 
+{
+	6461,
+	6461,
+	6461,
+	6461,
+	6461,
+	6461,
+	6461,
+	6242,
+	4996,
+	6242,
+	4996,
+	6461,
+	6461,
+	5305,
+	5305,
+	5094,
+	5094,
+	5094,
+	5094,
+	6461,
+	6461,
+	5094,
+	5094,
+	6461,
+	6461,
+	6461,
+	6461,
+	6342,
+	6461,
+	6461,
+	6461,
+	10937,
+	10937,
+	10643,
+	6461,
+	5064,
+	6461,
+	6242,
+	6342,
+	6461,
+	6342,
+	6342,
+	5094,
+	6342,
+	5094,
+	6342,
+	5094,
+	6311,
+	5064,
+	6311,
+	5064,
+	6461,
+	4717,
+	6461,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	54,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
